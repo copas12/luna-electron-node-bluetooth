@@ -1,0 +1,31 @@
+{
+  "author": {
+    "name": "Urip Subekti",
+    "email": "urip.subekti12@gmail.com"
+  },
+  "binary": {
+    "module_name": "BluetoothSerialPort",
+    "module_path": "./binary/electron-v4.0.3-{platform}-{arch}/",
+    "host": "https://github.com/copas12/luna-electron-printer/releases/download/0.0.5"
+  },
+  "bundleDependencies": [
+    "node-pre-gyp"
+  ],
+  "dependencies": {
+    "nan": "^2.1.0",
+    "node-pre-gyp": "^0.6.39"
+  },
+  "deprecated": false,
+  "description": "Luna node bluetooth",
+  "devDependencies": {
+    "nodeunit": "*"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "./index",
+  "name": "luna-node-bluetooth",
+  "version": "0.0.5"
+}
